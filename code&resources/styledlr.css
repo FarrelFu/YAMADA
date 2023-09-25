@@ -1,0 +1,129 @@
+body{
+    padding:0;
+    margin :0;
+    background-image: url(bgtesti2.jpg);
+    background-size: cover;
+    
+}
+
+.header{
+    height:10vh;
+    margin: auto;
+    
+    width: 100%;
+    position: relative;
+    
+    
+    
+
+}
+
+nav.menu{
+   
+    display: flex;  
+    padding: 1% 2%;
+    justify-content: space-between;
+    align-items: center;
+    
+
+    
+}
+
+nav img{
+    padding: 0px 5px;
+    width: 50px;
+    height: 50px;
+}
+
+.pilihan{
+    flex: 1;
+    text-align: right  ;
+}
+
+
+
+.pilihan ul li{
+    list-style: none;
+    text-decoration: none;
+    display: inline;
+    padding: 0px 50px;
+    position: relative;
+    
+    
+
+}
+
+.pilihan ul li a{
+    text-decoration: none;
+    font-size: 20px;
+    font-family: Garamond, serif;
+    
+    color: rgb(135, 123, 123);
+    transition: 1s;
+}
+
+.pilihan ul li a:hover{
+    color: wheat;
+    cursor: pointer;
+}
+
+.regis{
+    background: 2px;
+    background-color: none;
+    padding: 6px 12px;
+    transition: 1s;
+    border-radius:5px;
+}
+
+.regis:hover{
+    background-color: black;
+    
+}
+
+.regis:hover a{
+    
+    color: wheat;
+}
+
+.regis a{
+    text-align: left;
+    text-decoration: none;
+    color: black;
+
+}
+
+.error{
+    width: auto;
+    height : 70vh;
+    position: relative;
+    text-align: center;
+    justify-content: center;
+}
+
+.error h1{
+    padding-top: 25vh;
+    font-size: 60px;
+}
+
+.footer{
+    height: 10vh;
+    text-align: center;
+    position: relative;
+}
+
+.sosmed{
+    justify-content: center;
+    display: flex;
+    
+    align-items: center;
+   
+}
+
+.sosmed img{
+    width: 20px;
+    margin-left: 50px;
+    margin-right: 50px;
+    margin-top: 30px;
+    
+}
+

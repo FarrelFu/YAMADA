@@ -1,0 +1,241 @@
+body{
+    padding:0;
+    margin :0;
+    background-image: url(bgtesti2.jpg);
+    background-size: cover;
+    
+}
+
+.header{
+    height:10vh;
+    margin: auto;
+    
+    width: 100%;
+    position: relative;
+    
+    
+    
+
+}
+
+nav.menu{
+   
+    display: flex;  
+    padding: 1% 2%;
+    justify-content: space-between;
+    align-items: center;
+    
+
+    
+}
+
+nav img{
+    padding: 0px 5px;
+    width: 50px;
+    height: 50px;
+}
+
+.pilihan{
+    flex: 1;
+    text-align: right  ;
+}
+
+
+
+.pilihan ul li{
+    list-style: none;
+    text-decoration: none;
+    display: inline;
+    padding: 0px 50px;
+    position: relative;
+    
+    
+
+}
+
+.pilihan ul li a{
+    text-decoration: none;
+    font-size: 20px;
+    font-family: Garamond, serif;
+    
+    color: rgb(135, 123, 123);
+    transition: 1s;
+}
+
+.pilihan ul li a:hover{
+    color: wheat;
+    cursor: pointer;
+}
+
+.regis{
+    background: 2px;
+    background-color: none;
+    padding: 6px 12px;
+    transition: 1s;
+    border-radius:5px;
+}
+
+.regis:hover{
+    background-color: black;
+    
+}
+
+.regis:hover a{
+    
+    color: wheat;
+}
+
+.regis a{
+    text-align: left;
+    text-decoration: none;
+    color: black;
+
+}
+
+.product{
+    height: 100%;
+    width: 100%;
+    position: relative;
+    margin-bottom: 0;
+    
+}
+
+.head{
+    text-align: center;
+    padding-top: 100px;
+}
+
+.head h1{
+    font-family: 'Inria Serif';
+    font-style: normal;
+    
+    font-size: 60px;
+    color: gray;
+
+}
+
+.head p{
+    font-family: 'Inria Serif';
+    font-style: normal;
+    font-size: 30px;
+    color: gray;
+}
+
+.head p::after{
+    content: '';
+    width: 60%;
+    
+    height: 2px;
+    background: gray;
+    display: block;
+    margin: auto;
+}
+
+.titl{
+    align-items: left;
+    margin-left: 150px;
+    display: flex;
+    margin-bottom: 50px;
+    
+}
+
+.titl img{
+    width: 10%;
+}
+
+.titl h1{
+    font-family: 'Inria Serif';
+    color: gray;
+    text-align: center;
+    padding-top: 10px;
+    padding-left: 50px;
+    font-size: 50px;
+    
+}
+
+.latest{
+    width: 80%;
+    margin: auto;
+    text-align: center;
+    
+    color: white;
+    
+}
+
+.ltgbr{
+    
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 100px;
+}
+
+.gbrLatest{
+    
+    flex-basis: 30%;
+    border-radius: 10px;
+    margin-bottom: 30px;
+    position: relative;
+    overflow: hidden;
+}
+
+.gbrLatest img{
+    width: 100%;
+   
+}
+
+.lay{
+    background: transparent;
+    height: 100%;
+    width: 100%;
+    position:absolute;
+    top:0;
+    left: 0;
+    transition: 0.7s;
+}
+
+.lay:hover {
+    background:rgba(0, 0, 0, 0.3);;
+}
+
+
+.lay p{
+    width: 100%;
+    color: wheat;
+    font-size: 25px;
+    font-family : 'Inria Serif';
+    font-style : 'normal';
+    bottom: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    position: absolute;
+    opacity: 0;
+    transition: 0.7s;
+    
+}
+
+.lay:hover p{
+    bottom: 1%;
+    opacity: 1;
+}
+
+.footer{
+    height: 10vh;
+    text-align: center;
+    position: relative;
+}
+
+.sosmed{
+    justify-content: center;
+    display: flex;
+    
+    align-items: center;
+   
+}
+
+.sosmed img{
+    width: 20px;
+    margin-left: 50px;
+    margin-right: 50px;
+    margin-top: 30px;
+    
+}

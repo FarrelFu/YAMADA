@@ -1,0 +1,270 @@
+body{
+    padding:0;
+    margin :0;
+    background-image: url(bgtesti2.jpg);
+    background-size: cover;
+    
+}
+
+.header{
+    height:100vh;
+    margin: auto;
+    
+    width: 100%;
+    position: relative;
+   
+    
+    
+
+}
+
+nav.menu{
+   
+    display: flex;  
+    padding: 1% 2%;
+    justify-content: space-between;
+    align-items: center;
+    
+
+    
+}
+
+nav img{
+    padding: 0px 5px;
+    width: 50px;
+    height: 50px;
+}
+
+.pilihan{
+    flex: 1;
+    text-align: right  ;
+}
+
+
+
+.pilihan ul li{
+    list-style: none;
+    text-decoration: none;
+    display: inline;
+    padding: 0px 50px;
+    position: relative;
+    
+    
+
+}
+
+.pilihan ul li a{
+    text-decoration: none;
+    font-size: 20px;
+    font-family: Garamond, serif;
+    
+    color: rgb(135, 123, 123);
+    transition: 1s;
+}
+
+.pilihan ul li a:hover{
+    color: wheat;
+    cursor: pointer;
+}
+
+.regis{
+    background: 2px;
+    background-color: none;
+    padding: 6px 12px;
+    transition: 1s;
+    border-radius:5px;
+}
+
+.regis:hover{
+    background-color: black;
+    
+}
+
+.regis:hover a{
+    
+    color: wheat;
+}
+
+.regis a{
+    text-align: left;
+    text-decoration: none;
+    color: black;
+
+}
+
+.header h1{
+    text-align: center;
+    color: gray;
+    font-size: 50px;
+}
+
+.header h1::after{
+    content: '';
+    width: 40%;
+    
+    height: 2px;
+    background: grey;
+    display: block;
+    margin: auto;
+}
+
+
+.gr1{
+    position: absolute;
+    margin-top: 100px;
+    padding-left: 670px;
+    opacity: 0;
+    transition: 1s;
+    transition-delay: 0.5s;
+}
+
+.header:hover .gr1{
+    
+    
+    margin-top: 0;
+    opacity: 1;
+}
+
+.gr1 h3{
+    
+    color: white;
+    padding-left: 100px;
+    font-size: 25px;
+    margin-top: 0px;
+    
+}
+
+.gr1 img{
+    
+    width: 40%;
+    border-radius: 10px;
+    
+}
+
+.gr2{
+    position: absolute;
+    margin-top: 350px;
+    padding-left: 370px;
+    opacity: 0;
+    transition: 1s;
+    transition-delay: 1.5s;
+}
+
+.header:hover .gr2{
+    
+    
+    margin-top: 250px;
+    opacity: 1;
+}
+.gr2 h3{
+    color: red;
+    padding-left: 80px;
+    font-size: 25px;
+    margin-top: 0px;
+}
+
+.gr2 img{
+    width: 40%;
+    border-radius: 10px;
+}
+
+.gr3{
+    position: absolute;
+    padding-left: 970px;
+    opacity: 0;
+    margin-top: 350px;
+    transition: 1s;
+    transition-delay: 2.5s;
+}
+
+.header:hover .gr3{
+    margin-top: 250px;
+    opacity: 1;
+    
+}
+.gr3 h3{
+    color: wheat;
+    padding-left: 100px;
+    font-size: 25px;
+    margin-top: 0px;
+}
+
+.gr3 img{
+    width: 50%;
+    border-radius: 10px;
+}
+
+.ripiu{
+    width: 80%;
+    margin: auto;
+    text-align: center;
+    padding-top: 100px;
+    
+    
+}
+
+.ripiu h1{
+    font-size: 50px;
+    padding-bottom: 100px;
+    color: gray;
+}
+.plg{
+    justify-content: space-between;
+    display: flex;
+    
+}
+
+.testi{
+    flex-basis: 33%;
+    border-radius: 10px;
+    margin-bottom: 5%;
+    text-align: left;
+    background: wheat;
+    padding: 25px;
+    cursor: pointer;
+    margin-right: 30px;
+    margin-left: 30px;
+    
+    
+    
+}
+
+.testi img{
+    height: 100px;
+    margin-left: 5px;
+    margin-right: 40%;
+    border-radius: 10%;
+    
+}
+
+.testi p{
+    padding: 0;
+    color: gray;
+}
+
+.testi h3{
+    margin-top: 15px;
+    text-align: left;
+    color: gray;
+}
+
+.footer{
+    height: 10vh;
+    text-align: center;
+}
+
+.sosmed{
+    justify-content: center;
+    display: flex;
+    
+    align-items: center;
+   
+}
+
+.sosmed img{
+    width: 20px;
+    margin-left: 50px;
+    margin-right: 50px;
+    margin-top: 30px;
+    
+}
